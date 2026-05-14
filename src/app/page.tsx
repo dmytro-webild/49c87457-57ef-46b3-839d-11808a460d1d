@@ -93,6 +93,7 @@ export default function LandingPage() {
       title="Diagnostic en temps réel"
       description="Visualisez le flux de données en continu pour identifier les anomalies instantanément."
       textboxLayout="split"
+      animationType="slide-up"
       items={[
         {
           trigger: "Capture",          content: "Ingestion de données en temps réel via nos capteurs.",          imageOne: "http://img.b2bpic.net/free-photo/data-stats-around-person-doing-physical-activity_23-2150165183.jpg?_wi=1"},
