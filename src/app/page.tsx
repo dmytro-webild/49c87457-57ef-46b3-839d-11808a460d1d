@@ -13,6 +13,7 @@ import MetricCardFourteen from '@/components/sections/metrics/MetricCardFourteen
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import PricingCardNine from '@/components/sections/pricing/PricingCardNine';
 import TestimonialCardTwo from '@/components/sections/testimonial/TestimonialCardTwo';
+import TimelinePhoneView from '@/components/cardStack/layouts/timelines/TimelinePhoneView';
 
 export default function LandingPage() {
   return (
@@ -83,6 +84,22 @@ export default function LandingPage() {
           type: "text",          text: "Latence Optimisée"},
         {
           type: "text",          text: "Filtrage Intelligent"},
+      ]}
+    />
+  </div>
+
+  <div id="diagnostics" data-section="diagnostics">
+      <TimelinePhoneView
+      title="Diagnostic en temps réel"
+      description="Visualisez le flux de données en continu pour identifier les anomalies instantanément."
+      textboxLayout="split"
+      items={[
+        {
+          trigger: "Capture",          content: "Ingestion de données en temps réel via nos capteurs.",          imageOne: "http://img.b2bpic.net/free-photo/data-stats-around-person-doing-physical-activity_23-2150165183.jpg?_wi=1"},
+        {
+          trigger: "Analyse",          content: "Le moteur identifie les écarts statistiques en direct.",          imageOne: "http://img.b2bpic.net/free-photo/business-analysis-report-folder-icon_53876-14637.jpg"},
+        {
+          trigger: "Rapport",          content: "Génération automatique des insights et alertes.",          imageOne: "http://img.b2bpic.net/free-photo/side-view-female-with-tablet_23-2148415952.jpg"}
       ]}
     />
   </div>
