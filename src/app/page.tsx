@@ -71,7 +71,7 @@ export default function LandingPage() {
         },
       ]}
       enableKpiAnimation={true}
-      imageSrc="http://img.b2bpic.net/free-photo/data-stats-around-person-doing-physical-activity_23-2150165183.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/data-stats-around-person-doing-physical-activity_23-2150165183.jpg?_wi=1"
       mediaAnimation="blur-reveal"
       avatars={[
         {
@@ -240,7 +240,7 @@ export default function LandingPage() {
           button: {
             text: "Souscrire",
           },
-          imageSrc: "http://img.b2bpic.net/free-photo/data-stats-around-person-doing-physical-activity_23-2150165183.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/data-stats-around-person-doing-physical-activity_23-2150165183.jpg?_wi=2",
           imageAlt: "Data and stats around person doing physical activity",
         },
         {
